@@ -1,0 +1,29 @@
+body{
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: content-box;
+}
+h1 {
+    color: rgb(238, 4, 4);
+  } {outline-style: double;}
+h2 { color: red}
+ /* unvisited link */
+ a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  } 
